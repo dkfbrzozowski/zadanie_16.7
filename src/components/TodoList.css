@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.TodoList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.task {
+    font-family: Lato;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(81, 238, 120);
+}
+.task:hover {
+    background-color: rgb(81, 201, 238);
+    border-radius: 20px;
+    color: #fff;
+}

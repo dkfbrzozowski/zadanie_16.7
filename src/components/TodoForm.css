@@ -1,0 +1,30 @@
+.TodoForm {
+	height: 44px;
+    width: 400px;
+    margin-bottom: 30px;
+    display: flex;
+    margin-left: 20px;
+}
+.input {
+    width: 150px;
+    margin-right: 20px;
+    margin-left: 15px;
+    font-family: inherit;
+    text-align: center;
+}
+
+.TodoForm > label, .TodoForm > button {
+	height: 30px;
+	line-height: 30px;
+	width: 100px;
+	text-align: center;
+	color: #FFF;
+	font-family: inherit;
+}
+
+.TodoForm > button {
+	border: none;
+	border-radius: 10px;
+	background-color: darkgreen;
+
+}
