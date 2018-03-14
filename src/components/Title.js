@@ -1,6 +1,12 @@
-import React from 'react';
-import style from './Title.css';
-const Title = props => <h1 className={style.Title}>{props.title}</h1>
-//const Title = props => <h1>{props.title}</h1>
+import React from "react";
+
+const Title = (props) => {
+  return (
+    <div>
+      <h1>TODO Table</h1>
+      <h3>Current tasks number: {props.counter}</h3>
+    </div>
+  );
+};
 
 export default Title;

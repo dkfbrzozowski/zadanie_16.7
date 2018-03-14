@@ -1,20 +1,13 @@
-import React from 'react';
-import style from './TodoList.css';
 
-const TodoList = props => {
-    const tasks = props.list.map((item) => {
-        return (
-            <a href={'#'} onClick={() => item.remove(item.id)} key={item.id} className={style.task}>
-                {item.text}
-            </a>
-        )
-    });
+import React from "react";
+import Todo from "./Todo.js";
+import style from "./TodoList.css";
 
-    return (
-        <nav className={style.TodoList}>
-            {tasks}
-        </nav>
-    )
+const TodoList = (props) => {
+  let listItem = props.items.map((item) => {
+    return <Todo content={item} key={item.id} remove={props.remove} />;
+  });
+  return <ul className={style.TodoList}>{listItem}</ul>;
+};
 
-}
 export default TodoList;
