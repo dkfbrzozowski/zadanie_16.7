@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./TodoForm.css";
-
 const TodoForm = (props) => (
   <div className={style.TodoForm}>
     <input
@@ -14,5 +13,4 @@ const TodoForm = (props) => (
     </button>
   </div>
 );
-
 export default TodoForm;

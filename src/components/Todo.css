@@ -1,12 +1,10 @@
-
 .TodoItem {
 	padding: 10px;
-	border: 1px solid black;
+	border: 2px solid black;
 	text-align: center;
 	margin-top: 5px;
 }
-
 .TodoItem:hover {
 	cursor: pointer;
-	border-color: red;
+	border: 2px solid rgb(4, 0, 233);
 }

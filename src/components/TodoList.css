@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
-
-/* .TodoList {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-}
 .task {
     font-family: Lato;
     font-size: 30px;
@@ -20,9 +14,7 @@
     background-color: rgb(81, 201, 238);
     border-radius: 20px;
     color: #fff;
-} */
-
-
+}
 .TodoList {
 	list-style: none;
 	padding: 0;

@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
 .Title {
     background-color: rgb(204, 241, 187);
+    font-family: 'Lato';
     color: rgb(10, 187, 231);
     padding: 20px;
     border: solid 1px #fff;

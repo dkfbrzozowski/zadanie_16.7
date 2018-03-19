@@ -1,17 +1,13 @@
-
-.TodoForm input {
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.sTodoForm input {
 	padding: 5px;
 	border: none;
 	margin: 10px;
 }
-
-.TodoForm input:focus {
-	background: lightgray;
-}
-
 .TodoForm button {
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	font-family: 'Lato';
 	font-weight: bold;
 	padding: 5px 10px;
 	cursor: pointer;
@@ -20,7 +16,6 @@
 	margin: 10px;
 	color: #fff;
 }
-
 .TodoForm button:active {
-	background-color: #779bd5;
+	background-color: #6594e0;
 }
